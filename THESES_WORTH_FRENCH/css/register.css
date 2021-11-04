@@ -1,0 +1,39 @@
+.card{
+    height: 40rem;
+    width: 30rem;
+    text-align: center;
+    margin-top : 100px ;
+}
+.card-title span{
+    color : #eca72c;
+}
+
+.sperator{
+    margin : 60px;
+}
+.sperator hr{
+    display: inline-block;
+    color : lightgray; 
+    width: 8rem;
+    margin-bottom:0 ;
+}
+.sperator p{
+    display: inline-block;
+}
+.btn{
+    border-color: #00b2ca;
+    margin : 20px; 
+}
+
+.btn:hover{
+    background-color: #00b2ca;
+    border-color: #00b2ca;
+ }
+ 
+h6{
+    margin: 30px;
+}
+
+span   a{
+    color: #00b2ca;
+}

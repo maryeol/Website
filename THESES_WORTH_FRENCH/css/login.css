@@ -1,0 +1,33 @@
+form{
+    margin-top :9rem ;
+}
+
+
+.card{
+    height: 40rem;
+    width: 30rem;
+    text-align: center;
+    margin-top : 100px ;
+}
+
+.card-title {
+    color : #eca72c;
+}
+
+.btn{
+    border-color: #00b2ca;
+    margin-top :10rem; 
+}
+
+.btn:hover{
+    background-color: #00b2ca;
+    border-color: #00b2ca;
+ }
+ 
+h6{
+    margin: 30px;
+}
+
+span   a{
+    color: #00b2ca;
+}

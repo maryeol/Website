@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+  }
+.services{
+    margin: 40px;
+}
+.servicesbg {
+    height: 110vh;
+    background-image:  linear-gradient(rgba(58, 51, 51, 0.219) , rgba(68, 67, 67, 0.459)) , url(../img/meet.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+  }
+  
+  .card{
+      background-color: rgba(255, 255, 255, 0.739);
+  }
+
+
+.text h2{
+    padding-top: 35px;
+    font-size : 40px;
+    letter-spacing: 2px;
+}
+.text h2::before{
+    content: '';
+    position: absolute;
+    background-color: #eca72c;
+    width: 150px;
+    height: 5px;
+    bottom: -15px;
+    left : 46%; 
+    margin : 10px;
+}
+
+.text p{
+margin : 15px; 
+}
+
+.circle {
+    padding : 12px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    background-color: #00b2ca3a;
+    color : #00b2ca;
+    border-radius: 50%;
+    margin-bottom: 20px;
+   
+
+}
+.circle span{
+    font-size: 2rem;
+}
+.card:hover .circle{
+    background-color: #00b2ca;
+    color : white; 
+}

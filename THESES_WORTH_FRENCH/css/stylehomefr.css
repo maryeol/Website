@@ -1,0 +1,115 @@
+.hero{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  color :  #023436;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+.video-bg{ 
+  position: absolute;
+ transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  top : 50%;
+  left: 50%;
+  z-index: -2;
+ 
+}
+.slogan{
+    position: relative;
+    top : 380px ;
+    left :80px;
+    width: 600px;
+    color : #023436; 
+}
+.slogan h1{
+   /* position: inherit;*/
+    font-size : 40px;
+    color : #023436;
+    letter-spacing:  8px ;
+    /*top : 100px ;*/
+}
+.slogan p{
+    
+    font-size : 25px;
+    letter-spacing:2px ;
+    
+}
+
+.btn-outline-primary{
+    border-color: #00b2ca;
+    margin: 4px ;
+    bottom: 8px;
+}
+
+
+.nav-link:hover{
+    color : #00b2ca; 
+}
+
+
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+.btn:hover{
+   background-color: #00b2ca;
+   border-color: #00b2ca;
+}
+
+.text p{
+    color : white ;
+   }
+
+.more-projects{
+    font-size: 18px;
+  }

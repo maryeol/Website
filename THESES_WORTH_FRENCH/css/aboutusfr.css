@@ -1,0 +1,41 @@
+.historique{
+    margin-top: 20rem;
+}
+
+.historique p{
+    font-size: 20px;
+}
+
+.logo img{
+    position: relative;
+    width: 13rem;
+    margin-left: 8rem;
+    
+}
+
+.team{
+    margin-top: 20rem;
+}
+
+.map-container{
+    margin-top:10rem;
+    overflow:hidden;
+    /*padding-bottom:56.25%;*/
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+.information{
+    margin-top: 20rem;
+}
+
+.card-title{
+    color : #f79256;
+}
